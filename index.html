@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML WEEK 2 ASSIGNMENT </title>
+    </head>
+    <body>
+        <h1>Ordered lists</h1>
+        <!--steps to check your email inboxes-->
+        <ol type="i">
+            <li>Turn on your computer</li>
+            <li>Open your web browser</li>
+            <li>Navigate to your emai providers website</li>
+            <li>Enter your login credentials</li>
+            <li>Check your inbox for new messages</li>
+        </ol>
+
+        <h1>Images</h1>
+        <img src="sun.jpg" alt="image of a sun" width="350" height="350">
+
+        <h1>HTML Tables</h1>
+        <table border="2">
+            <thead>
+                <th colspan="2">Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Julia</td>
+                    <td>Monroe</td>
+                    <td>482 Elmwood Drive,Springfield, IL 62704</td>
+                    <td>(217) 555-8392</td>
+                    <td>julia.monroe92@example.com</td>
+                </tr>
+                <tr>
+                    <td>Derek</td>
+                    <td>Chen</td>
+                    <td>1397 Pacific Avenue, San Francisco, CA 94109</td>
+                    <td>(415) 555-3124</td>
+                    <td>dchen.tech@example.net</td>
+                </tr>
+                <tr>
+                    <td>Amina</td>
+                    <td>Yusuf</td>
+                    <td>2489 Riverside Lane, Dallas, TX 75204</td>
+                    <td>(469) 555-7946</td>
+                    <td>amina.y.dev@example.org</td>
+                </tr>
+                <tr>
+                    <td>Thomas</td>
+                    <td>Beckett</td>
+                    <td>78 Red Oak Street, Albany, NY 12203</td>
+                    <td>(518) 555-1178</td>
+                    <td>tbeckett.info@example.com</td>
+                </tr>
+                <tr>
+                    <td>Priya</td>
+                    <td>Nair</td>
+                    <td>305 Maple Grove Blvd, Portland, OR 97229</td>
+                    <td>(503) 555-6623</td>
+                    <td>priya.nair84@example.net</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>HTML Forms</h1>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <br><br>
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password">
+            <br><br>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date">
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender" value="female">Female
+            <input type="radio" id="gender" name="gender" value="male">Male
+            <input type="radio" id="gender" name="gender" value="rather not say">Rather not say
+            <br><br>
+            <label for="country">Country</label>
+            <select>
+                <option>--Select Country</option>
+                <option>Kenya</option>
+                <option>Uganda</option>
+                <option>South Africa</option>
+                <option>Nigeria</option>
+            </select>
+            <br><br>
+            <label for="path selection">What is your preferred path:</label>
+            <input type="checkbox" id="path selection" name="path selection" value="Cybersecurity">Cybersecurity
+            <input type="checkbox" id="path selection" name="path selection" value="Datacommunication">Datacommunication
+            <input type="checkbox" id="path selection" name="path selection" value="Network architecture">Network architecture
+            <input type="checkbox" id="path selection" name="path selection" value="Malware analysis">Malware analysis
+        </form>
+    </body>
+</html>
